@@ -7,7 +7,7 @@ module.exports.config = {
  name: "admin",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "SHAHADAT SAHU",
+ credits: "OBITO UCHIHA",
  description: "Show Owner Info",
  commandCategory: "Info",
  usages: "admin",
@@ -25,27 +25,27 @@ module.exports.run = async ({ api, event }) => {
  const body = `
 👑 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢
 
-👤 Name : ${conf.AuthorName}
-🧸 NickName : ${conf.AuthorNickName}
-🚹 Gender : ${conf.AuthorGender}
-❤️ Relation : ${conf.AuthorRelationalStatus}
-🎂 Age : ${conf.AuthorAge}
-🕌 Religion : ${conf.AuthorReligion}
-🏡 Address : ${conf.AuthorLocation}
+👤 Name : OBITO UCHIHA
+🧸 NickName : FAHIM
+🚹 Gender : MALE
+❤️ Relation : single 
+🎂 Age : 17+
+🕌 Religion : ISLAM
+🏡 Address : KUSHTIA
 
 🌐 𝗖𝗢𝗡𝗧𝗔𝗖𝗧
 
 📘 Facebook :
-${conf.AuthorFacebook}
+https://www.facebook.com/obitouchihafm
 
 💬 Messenger :
-${conf.AuthorMessenger}
+obitouchihafm
 
 🔰 GitHub :
 ${conf.AuthorGithub}
 
 📲 WhatsApp :
-${conf.AuthorWhatsApp}
+01316269537
 
 🕒 Updated
 📅 Date : ${date}
