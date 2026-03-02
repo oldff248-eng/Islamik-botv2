@@ -4,7 +4,7 @@ module.exports.config = {
   name: "acp",
   version: "1.0.0",
   hasPermssion: 2,
-  credits: "SHAHADAT SAHU",
+  credits: "OBITO UCHIHA",
   description: "Accept or delete friend requests",
   commandCategory: "system",
   usages: "acp",
@@ -37,10 +37,10 @@ module.exports.handleReply = async ({ handleReply, event, api }) => {
 
   if (action === "add") {
     form.fb_api_req_friendly_name = "FriendingCometFriendRequestConfirmMutation";
-    form.doc_id = "3147613905362928";
+    form.doc_id = "obitouchihafm";
   } else {
     form.fb_api_req_friendly_name = "FriendingCometFriendRequestDeleteMutation";
-    form.doc_id = "4108254489275063";
+    form.doc_id = "obitouchihafm";
   }
 
   let targetIDs = args.slice(1);
